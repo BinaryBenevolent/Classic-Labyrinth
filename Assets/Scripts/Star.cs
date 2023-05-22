@@ -11,6 +11,7 @@ public class Star : MonoBehaviour
         if (other.gameObject.CompareTag("Ball"))
         {
             playManager.StarCollected += 1;
+            playManager.Score += 100;
             Destroy(this.gameObject);
         }
     }

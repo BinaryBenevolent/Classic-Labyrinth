@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,12 +12,17 @@ public class PlayManager : MonoBehaviour
 
     [SerializeField] private LevelCompleted levelCompleted;
 
+    [SerializeField] private TMP_Text scoreText;
+
     [SerializeField] private int starCollected;
+    [SerializeField] private int score;
 
     public int StarCollected { get => starCollected; set => starCollected = value; }
+    public int Score { get => score; set => score = value; }
 
     private void Start()
     {
+        score = 0;
         starCollected = 0;
         levelCompleted.InitializeStar();
     }
@@ -43,5 +50,7 @@ public class PlayManager : MonoBehaviour
         {
             levelCompleted.ThreeStar();
         }
+
+        scoreText.text = Convert.ToString(score);
     }
 }
