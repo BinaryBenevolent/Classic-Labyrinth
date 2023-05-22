@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1800
+  spritePixelsToUnits: 3000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -288,27 +288,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cga_ui_gold_25
-      rect:
-        serializedVersion: 2
-        x: 2564
-        y: 1582
-        width: 17
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3cd963f9aac5ac4bba8beb9a653c571
-      internalID: 1109189950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cga_ui_gold_26
       rect:
         serializedVersion: 2
@@ -329,6 +308,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: level-button
+      rect:
+        serializedVersion: 2
+        x: 10176
+        y: 4946
+        width: 1660
+        height: 1561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 182, y: 198, z: 160, w: 145}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6a694e4a5418a4fbc96f36af083d00
+      internalID: -817208216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -341,7 +341,6 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       button: -1491016924
-      cga_ui_gold_0: -817208216
       cga_ui_gold_10: 587934600
       cga_ui_gold_11: 599824003
       cga_ui_gold_12: 994025821
@@ -370,6 +369,7 @@ TextureImporter:
       cga_ui_gold_6: -31233827
       cga_ui_gold_7: -1151403904
       left: -1275568183
+      level-button: -817208216
       panel: 665726278
       right: 141152343
       star-empty: -325312345
