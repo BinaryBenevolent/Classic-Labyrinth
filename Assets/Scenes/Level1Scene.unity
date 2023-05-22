@@ -3557,6 +3557,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1998699234}
+    - target: {fileID: 8591714032239230123, guid: ce362e69c691f0a498783bde49f7bd24, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level2Scene
+      objectReference: {fileID: 0}
     - target: {fileID: 8591714032299096356, guid: ce362e69c691f0a498783bde49f7bd24, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
